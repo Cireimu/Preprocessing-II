@@ -1,1 +1,17 @@
 // Mixins in here
+.margin(@margin:0 auto, @margin-top:30px, @margin-bottom:30px) {
+    margin:@margin;
+    margin-top: @margin-top;
+    margin-bottom: @margin-bottom;
+}
+
+
+
+.btn(@btn-padding, @btn-width,@bg-color, @color, @border-r){
+    width:@btn-width;
+    background-color: @bg-color;
+    color:@color;
+    border-radius:@border-r;
+    padding:@btn-padding
+}
+
